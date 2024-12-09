@@ -221,7 +221,7 @@
     <!-- Add Todo Section -->
     <div class={"enterTodo " + (error ? "errorBorder" : "")}>
         <input bind:value={currTodo} type="text" placeholder="Enter todo" />
-        <button on:click={addTodo}>ADD TASK</button>
+        <button on:click={addTodo}>ADD NEW</button>
     </div>
 </div>
 
